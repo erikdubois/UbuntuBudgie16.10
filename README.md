@@ -13,7 +13,13 @@ Updated the system with newer kernel.
 
 
 Making shortcuts for variety !!!!
-There is NO ICON IN THE PANEL for variety.
+There is no icon for variety.
+
+No icon for kazam.
+
+Simplescreenrecorder does not install.
+
+Teamviewer problems.
 
 
 ![Screenshots](http://i.imgur.com/EoNNaoM.png)
@@ -43,26 +49,7 @@ The most recent pictures can be found there.
 https://plus.google.com/u/0/collection/YFP-LB
 
 
-Some Examples!
-
-
-Sardi Flexible has a script. Type a colour code and 3 seconds later all your icons have changed.
-
-Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
-
-![Screenshots](http://i.imgur.com/T9gN544.jpg)
-
-
-
-This is the original colour of Sardi Flexible with Minty-transparent theme.
-
-
-
-![Screenshots](http://i.imgur.com/iS6zFFU.jpg)
-
-Sardi Arc
-
-![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
+![Screenshots](http://i.imgur.com/jKkVhAT.jpg)
 
 
 
@@ -103,7 +90,7 @@ This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
 
-![Screenshots](http://i.imgur.com/y92Jrp4.png)
+![Screenshots](http://i.imgur.com/JQQjjMB.jpg)
 
 
 ![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
