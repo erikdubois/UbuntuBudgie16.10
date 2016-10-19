@@ -16,15 +16,14 @@ Updated the system with newer kernel.
 
 
 Making shortcuts for variety !!!!
+
 There is no icon for variety.
 
 No icon for kazam.
 
 Simplescreenrecorder does not install.
 
-Teamviewer problems.
-
-
+Teamviewer does not install.
 
 
 
@@ -58,11 +57,15 @@ Github of http://github.com/erikdubois/surfn
 
 
 
-![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
+![Screenshots](http://i.imgur.com/lK2pbnL.jpg)
 
 
 
-![Screenshots](http://i.imgur.com/EocrQ70.png)
+![Screenshots](http://i.imgur.com/INUECvt.jpg)
+
+
+
+![Screenshots](http://i.imgur.com/n6jUmHY.jpg)
 
 
 
@@ -77,6 +80,10 @@ Github of http://github.com/erikdubois/surfn
 
 
 ![Screenshots](http://i.imgur.com/OVDzrvC.jpg)
+
+
+
+![Screenshots](http://i.imgur.com/AmyVreN.jpg)
 
 
 
