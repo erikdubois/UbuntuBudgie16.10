@@ -21,6 +21,8 @@ There is no icon for variety.
 
 No icon for kazam.
 
+Same issues as on Ubuntu 16.10 what only seems normal as that is the base.
+
 Simplescreenrecorder does not install.
 
 Teamviewer does not install.
