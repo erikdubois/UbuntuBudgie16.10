@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -13,7 +13,7 @@
 
 
 
-
+sudo apt install -y nautilus-admin nautilus-dropbox
 
 
 echo "################################################################"
