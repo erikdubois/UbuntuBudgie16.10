@@ -12,21 +12,23 @@
 ##################################################################################################################
 
 
-
-rm -rf /tmp/sardi
-wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
-mkdir /tmp/sardi
-tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
-rm /tmp/sardi.tar.gz
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
 # if there is no hidden folder then make one
 [ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
 cp -rf /tmp/sardi/* ~/.icons/
-rm -rf /tmp/sardi
+
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "###################    icons sardi done   ######################"
 echo "################################################################"

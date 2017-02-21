@@ -11,14 +11,12 @@
 #
 ##################################################################################################################
 
-rm -rf /tmp/Sardi-Extra
-git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
-find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/Sardi-Extra/* ~/.icons/
-rm -rf /tmp/Sardi-Extra
 
-
-
+sudo rm -rf /opt/screenkey
+sudo apt-get install python-gtk2 python-setuptools python-setuptools-git python-distutils-extra -y
+sudo git clone https://github.com/wavexx/screenkey.git /opt/screenkey
+cd /opt/screenkey
+sudo ./setup.py install
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

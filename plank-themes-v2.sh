@@ -12,15 +12,7 @@
 ##################################################################################################################
 
 
-########################################
-########        C O N K Y      #########
-########################################
 
-
-
-# if there is already a folder in tmp, delete or else do nothing
-[ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
-# download the github in folder /tmp/aureola
 
 echo "################################################################"
 echo "Checking if git is installed"
@@ -44,19 +36,24 @@ echo "Install git for an easy installation"
 	fi
 
 
+rm -rf /tmp/Plank-Themes
+
+git clone https://github.com/erikdubois/Plank-Themes /tmp/Plank-Themes
+find /tmp/Plank-Themes -maxdepth 1 -type f -exec rm -rf '{}' \;
+
+# if there is no hidden folder then make one
+[ -d $HOME"/.local/share/plank" ] || mkdir -p $HOME"/.local/share/plank"
+
+# if there is no hidden folder then make one
+[ -d $HOME"/.local/share/plank/themes" ] || mkdir -p $HOME"/.local/share/plank/themes"
+
+
+cp -r /tmp/Plank-Themes/* ~/.local/share/plank/themes/
+
+rm -rf /tmp/Plank-Themes
+
 
 
 echo "################################################################"
-echo "Downloading the files from github to tmp directory"
-
-rm -rf /tmp/aureola
-
-git clone https://github.com/erikdubois/Aureola /tmp/.aureola
-
-cp -rf /tmp/.aureola ~/
-
-rm -rf /tmp/aureola
-
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "###################  plank themes installed   ##################"
 echo "################################################################"

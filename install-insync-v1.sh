@@ -12,14 +12,10 @@
 ##################################################################################################################
 
 
-
-rm -rf /tmp/Surfn
-git clone https://github.com/erikdubois/Surfn /tmp/Surfn
-find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -rf /tmp/Surfn/* ~/.icons/
-rm -rf /tmp/Surfn
-
-
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo add-apt-repository "deb http://apt.insynchq.com/ubuntu xenial non-free contrib"
+sudo apt-get update
+sudo apt-get install -y insync
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
