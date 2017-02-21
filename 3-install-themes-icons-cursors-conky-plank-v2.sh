@@ -31,7 +31,7 @@ sh icons-sardi-v3.sh
 
 # Surfn icons
 
-sh icons-surfn-v3.sh
+sh icons-surfn-v4.sh
 
 ###############################################################################################
 
@@ -43,7 +43,7 @@ sh install-gtk-arc-theme-v1.sh
 
 # Arc-flatabulous theme
 
-sh install-arc-flatabulous-theme-v1.sh
+#sh install-arc-flatabulous-theme-v1.sh
 
 #############################################################################################
 
@@ -55,13 +55,13 @@ sh plank-themes-v2.sh
 
 # Arc themes
 
-sh theme-arc-colora-collection-3.2-v1.sh
+#sh theme-arc-colora-collection-3.2-v1.sh
 
 ###############################################################################################
 
 # Mint-Y themes
 
-sh theme-mint-y-colora-collection-3.2-v1.sh
+#sh theme-mint-y-colora-collection-3.2-v1.sh
 
 ###############################################################################################
 
